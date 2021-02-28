@@ -1,0 +1,125 @@
+* { border: 1px solid black; 
+margin: 1px;}
+
+:root {
+   --grey: rgb(47, 48, 48);
+   --dark_grey: rgb(70, 69, 65);
+   --text_color:rgb(238, 218, 203);
+}
+body{
+    max-width: 100%;
+    max-height: 100%;}
+
+header  {
+    display: flex;
+    background-color: var(--dark_grey);
+    color:var(--text_color);
+    padding: 30px 0px;    
+}
+header h1{
+    padding-top:  25px;
+}
+/* Style for name content */
+.Name {
+  
+    text-align:right;
+    top: 50%;
+    left: 50%;
+    background-color: var(--grey);
+    font-size: 150%;
+    height: 75px;
+    width: 400px;
+    letter-spacing: 3px;
+}
+
+nav {
+    width: 100%;
+    padding: 0px 0px 0px 0px
+}
+
+ nav a{
+    padding: 0px 10px;
+    float:right ;
+    justify-self: flex-end;
+    align-content: center;
+    font-size: 120%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--text_color);
+    border-bottom: 4px  solid black;
+ }
+
+section{
+    display: flex;
+    padding: 10px;
+}
+
+section h1  {
+    height: 300px;
+    max-width: 25%;
+    min-width: 200px;
+    font-size: 300%;
+    text-align: right;
+    border-right: 4px  solid black;
+    margin-right: 5px;
+    color: var(--text_color);
+    border-radius: 10px;
+    border
+
+}
+section p{
+    padding-left: 50px;
+}
+/* body content */
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    height: 50px;
+    position:fixed;
+    width: 100%;
+    background-color:var(--grey) ;
+}
+
+footer {
+    padding-top: 15px
+}
+footer p {
+    
+    color: var(--text_color);
+}
+
+
+
+
+
+
+
+/*GIVEN I need to sample a potential employee's previous work
+
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
+
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport */
