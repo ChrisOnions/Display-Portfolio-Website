@@ -1,18 +1,21 @@
-/* s */
+* { border: 1px solid black; }
 /* root elements to make it easier to style colours */
 :root {
-   --dark_grey: rgb(47, 48, 48);
-   --grey: rgb(70, 69, 65);
+   --Border_outline: rgb(47, 48, 48);
+   --Text_highlght: rgb(70, 69, 65);
    --text_color:rgb(233, 229, 194);
 }
 /* wraps the page in a body elemtnt */
+/* body wrapper */
 body{
-    max-width: 100%;
-    max-height: 100%;}
+   
+   
+}
+    
 /* Styling for the header */
 header  {
     display: flex;
-    background-color: var(--dark_grey);
+    background-color: var(--Border_outline);
     color:var(--text_color);
     padding: 20px 0px;    
 }
@@ -25,7 +28,7 @@ header h1{
     text-align:right;
     top: 50%;
     left: 50%;
-    background-color: var(--grey);
+    background-color: var(--Text_highlght);
     font-size: 150%;
     height: 75px;
     width: 400px;
@@ -61,7 +64,7 @@ nav {
 
 .side_text {
     position: absolute;
-    background-color: var(--grey);
+    background-color: var(--Text_highlght);
     bottom: 50px;
     right: 20px;
     padding: 10px;
@@ -73,31 +76,41 @@ nav {
 section{
     display: flex;
     padding: 7px;
+
 }
 /* spacing and styleing elemnts */
+
 section h1  {
     height: auto;
     min-width: 200px;
     font-size: 300%;
-    text-align: right;
-    /* border-right: 4px  solid black; */
-    margin-right: 5px;
+    text-align: center;
+    margin-right: 10px;
     margin-bottom: 75px;
     color: var(--text_color);
-   
 
 }
 
-/* Move text off of the h1 border */
+/* Move text off of the h1 border and display min width */
 section p {
+    
+   
     padding-left: 30px;
     padding-top: 5px;
     border-radius: 3px;
     border-left: 4px  solid black
     
 }
-/* Body content = nil  for now*/
 
+p a{
+    justify-content: stretch;
+    display: flex;
+    font-size: 120%;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+  
+}
 
 /* footer constant */
 .footer {
@@ -107,7 +120,7 @@ section p {
     text-align: center;
     height: 45px;
     width: 100%;
-    background-color:var(--grey) ;
+    background-color:var(--Border_outline) ;
 }
 
 footer {
