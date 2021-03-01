@@ -1,27 +1,27 @@
-/* * { border: 1px solid black; 
-margin: 1px;} */
-
+/* s */
+/* root elements to make it easier to style colours */
 :root {
    --dark_grey: rgb(47, 48, 48);
    --grey: rgb(70, 69, 65);
-   --text_color:rgb(238, 218, 203);
+   --text_color:rgb(233, 229, 194);
 }
+/* wraps the page in a body elemtnt */
 body{
     max-width: 100%;
     max-height: 100%;}
-
+/* Styling for the header */
 header  {
     display: flex;
     background-color: var(--dark_grey);
     color:var(--text_color);
     padding: 20px 0px;    
 }
+/* moves the text block down  */
 header h1{
     padding-top:  25px;
 }
-/* Style for name content */
+/* Style for name content and box */
 .Name {
-  
     text-align:right;
     top: 50%;
     left: 50%;
@@ -31,12 +31,12 @@ header h1{
     width: 400px;
     letter-spacing: 3px;
 }
-
+/* Nav elements positiong */
 nav {
     width: 100%;
-    padding: 35px 0px 0px 0px
+    padding: 50px 0px 0px 0px
 }
-
+/* Nav button styles and box layout */
  nav a{
     padding: 0px 10px;
     float:right ;
@@ -47,37 +47,54 @@ nav {
     letter-spacing: 2px;
     color: var(--text_color);
     border-bottom: 4px;
+    
  }
+/* Added Relative to place text over picture */
+.Picture_container{
+    position: relative;
+}
+/* picture under the nav max stretch to fill page */
+.under_picture{
+    width: 100%; 
+    max-height: 190px;
+}
 
-.under_picture{
-  width: 100%; 
-}
-.under_picture{
-    max-height: 200px;
-}
+.side_text {
+    position: absolute;
+    background-color: var(--grey);
+    bottom: 50px;
+    right: 20px;
+    padding: 10px;
+    color: var(--text_color);
+    
+    }
+
+/* Section box positioning nad display */
 section{
     display: flex;
-    padding: 10px;
+    padding: 7px;
 }
-
+/* spacing and styleing elemnts */
 section h1  {
     height: auto;
-    max-width: 25%;
     min-width: 200px;
     font-size: 300%;
     text-align: right;
-    border-right: 4px  solid black;
+    /* border-right: 4px  solid black; */
     margin-right: 5px;
     margin-bottom: 75px;
     color: var(--text_color);
-    border-radius: 10px;
+   
 
 }
 
 /* Move text off of the h1 border */
 section p {
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 5px;
+    border-radius: 3px;
+    border-left: 4px  solid black
+    
 }
 /* Body content = nil */
 
@@ -93,7 +110,7 @@ section p {
     left: 0;
     bottom: 0;
     text-align: center;
-    height: 50px;
+    height: 45px;
     position:fixed;
     width: 100%;
     background-color:var(--grey) ;
