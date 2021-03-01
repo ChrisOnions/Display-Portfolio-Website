@@ -96,22 +96,16 @@ section p {
     border-left: 4px  solid black
     
 }
-/* Body content = nil */
+/* Body content = nil  for now*/
 
 
-
-
-
-
-
-/* footer */
+/* footer constant */
 .footer {
-    position: fixed;
+  
     left: 0;
     bottom: 0;
     text-align: center;
     height: 45px;
-    position:fixed;
     width: 100%;
     background-color:var(--grey) ;
 }
