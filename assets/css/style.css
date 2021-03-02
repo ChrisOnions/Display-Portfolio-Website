@@ -1,9 +1,9 @@
 /* * { border: 1px solid black; }
 root elements to make it easier to style colours */
 :root {
-   --Border_outline: rgb(47, 48, 48);
+   --Border_outline: #1A1A1D;
    --Text_highlght: rgb(70, 69, 65);
-   --text_color:rgb(233, 229, 194);
+   --text_color:rgb(186, 175, 235);
 }
 /* wraps the page in a body elemtnt */
 /* body wrapper */
@@ -40,7 +40,7 @@ header h1{
  nav a{
     padding: 0px 10px;
     float:right ;
-    justify-self: flex-end;
+   
     align-content: center;
     font-size: 120%;
     font-weight: bold;
@@ -92,21 +92,20 @@ section h1  {
 }
 #Work_image_container{
     display: flex;
-    justify-content: space-around;
+    
     
 }
-
+/* A standard top box model that takes up one full row */
 .Work_box_full{
-   
     width:  99%;
     max-height: 400px;
     border-radius: 8px;
     margin: 10px 0px;
     border: 8px solid var(--Text_highlght) ;
 }
-/* Expandable box models for clickable picutre links that  */
+/* Expandable box models for clickable picutre links that go to diferent projects */
+
 .Work_box_half{
-   
     width: 48% ;
     max-height: 400px;
     border-radius: 8px;
@@ -116,9 +115,8 @@ section h1  {
    
 }
 
-
-
 /* Move text off of the h1 border and display min width */
+
 .Sidebar {
     width: 2000px;
     padding-left: 30px;
@@ -127,13 +125,14 @@ section h1  {
     border-left: 4px  solid black
     
 }
-/* sidebar for images to fit  */
+/* sidebar for images to align with text boxes */
+
 #Sidebar{   
     padding: 20px 0px 20px 100px ;
     border-left: 4px  solid black
 }
 
-/* #Container_position h2 {
+/* #Container_position {
       
     background-color: var(--Text_highlght);
     border: 0px solid var(--Text_highlght);
@@ -143,7 +142,8 @@ section h1  {
 
 p a{
   /* change this to a class */
-    display: flex;
+    text-align: center;
+    padding: 0px 20px;
     font-size: 120%;
     font-weight: bold;
     letter-spacing: 2px;
@@ -174,14 +174,22 @@ img {
 
 
 
-/* Questions */
 
-/* when you git add . and git commit does it save it to the local as a new entery and then dump all new enterys into the repo? */
 
-/* how to make font size to be chage to fit box for mobile */
+
+
+/* media query */
+
 /* how do i get text on the picture */
+
+/* - position relative for parent container
+- position absolute for text 
+- use z index if you need the text to stack on top of image */
+
 /* how do i better aling the pics */
 /* how do i get the work fill box to resize to text box half for mobile, and why dont they flex in position */
+/* read me  */
+/* how do i make the images clickable */
 
 
 
@@ -191,14 +199,18 @@ img {
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
 
+
 WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
+THEN the UI scrolls to the corresponding section 
+DONE
 
 WHEN I click on the link to the section about their work
 THEN the UI scrolls to a section with titled images of the developer's applications
+WHAT APPLICATIONS?
 
 WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others
+ALSO WHAT?
 
 WHEN I click on the images of the applications
 THEN I am taken to that deployed application
