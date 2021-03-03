@@ -91,13 +91,17 @@ section h1  {
 section a{
     position: relative;
 } 
-/* flex container for boxes */
+/* section div {
+    
+} */
 #Work_image_container{
-    display: flex;  
+    display: flex;
+    
+    
 }
 /* A standard top box model that takes up one full row */
 .Work_box_full{
-    width:  98%;
+    width:  99%;
     max-height: 400px;
     border-radius: 8px;
     margin: 10px 0px;
@@ -106,12 +110,12 @@ section a{
 /* Expandable box models for clickable picutre links that go to diferent projects */
 
 .Work_box_half{
-    width: 47.1% ;
+    width: 48% ;
     max-height: 400px;
     border-radius: 8px;
     border-radius: 8px;
+    margin: 10px 10px 10px 0px;
     border: 8px solid var(--Text_highlght) ;
-    margin: 5px
    
 }
 
@@ -137,25 +141,22 @@ section a{
 #image_text_placement_full {
    
     position: absolute;
-    top: -120px;
-    left: 1px;
-    background-color: var(--Text_highlght);
-    border: 0px solid var(--Text_highlght);
-    border-radius: 0px 10px 10px 0px;
-    padding: 10px 30px;
-    z-index: 1;
-}
-#image_text_placement_half {
-   
-    position: absolute;
     bottom: 80px;
-    left: 1px;
     background-color: var(--Text_highlght);
     border: 0px solid var(--Text_highlght);
     border-radius: 0px 10px 10px 0px;
     padding: 10px 30px;
-    z-index: 1;
-}
+    }
+
+/* p a{
+  /* change this to a class 
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 120%;
+    font-weight: bold;
+    letter-spacing: 2px;
+} */
+
 
 /* footer constant */
 .footer {
@@ -178,21 +179,7 @@ img {
     border: 2px solid black;   
 }
 
-@media only screen and (max-width: 600px){
-    .workbox_full{
-        width: 47.1% ;
-        max-height: 200px;
-        border-radius: 8px;
-        border-radius: 8px;
-        border: 8px solid var(--Text_highlght) ;
-    }
-section h1 {
-    font-size: 20px;
-}
-nav a {
-    font-size: 20px;
-}
-}
+
 
 
 
