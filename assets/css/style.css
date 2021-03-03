@@ -125,13 +125,7 @@ section a{
     border-left: 4px  solid black
     
 }
-/* sidebar for images to align with text boxes */
 
-#Sidebar{   
-
-    padding: 20px 0px 20px 100px ;
-    border-left: 4px  solid black
-}
 /* removes the href display box */
 
 #image_text_placement_full {
@@ -187,12 +181,12 @@ img {
         font-size: 10px;
 
     }
-    #Sidebar{
-        padding: 20px 0px 20px 2px;
+    .Sidebar{
+        padding: 20px 0px 10px 2px;
     }
     .Work_box_half {
-        width: 41%;
-        max-height: 100px ;
+        width: 100%;
+        
     }
     #image_text_placement_full{
         padding: 6px 6px;
@@ -204,14 +198,18 @@ img {
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1450px){
        
     section h1 {
     font-size: 20px;
   }
     nav a {
-    font-size: 5px;
+    font-size: 10px;
   }
+  .Work_box_half {
+    min-width: auto;
+   
+}
 }
 
 
