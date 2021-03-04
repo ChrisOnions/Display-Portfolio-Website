@@ -40,4 +40,8 @@ This was my first project, there were a few setbacks such as using flex over gri
 ## Acknowledgments
 
 Stylesheet rescet.css
+<<<<<<< HEAD
 (https://meyerweb.com/eric/tools/css/reset/)
+=======
+(https://meyerweb.com/eric/tools/css/reset/)
+>>>>>>> 2c5a89f24d577153d82195233881ccbb6901c987
