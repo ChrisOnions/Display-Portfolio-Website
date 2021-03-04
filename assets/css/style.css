@@ -4,6 +4,8 @@
    --Border_outline: #1A1A1D;
    --Text_highlght: rgb(70, 69, 65);
    --text_color:rgb(186, 175, 235);
+   --hover_color: red;
+
 }
 /* wraps the page in a body elemtnt */
 /* body wrapper */
@@ -46,9 +48,11 @@ header h1{
     letter-spacing: 2px;
     color: var(--text_color);
     border-bottom: 4px;
-    
  }
-
+nav a:hover{
+   font-style: italic;
+    color: var(--hover_color);
+}
 
 /* Added Relative to place text over picture */
 .Picture_container{
@@ -124,6 +128,13 @@ section a{
     border-radius: 3px;
     border-left: 4px  solid black
     
+}
+.sidebar p a{
+    color: var(--text_color);
+}
+.Sidebar a:hover{
+font-style: italic;
+color: var(--hover_color);
 }
 
 /* removes the href display box */
