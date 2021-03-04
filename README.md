@@ -27,14 +27,6 @@ This was my first project, there were a few setbacks such as using flex over gri
 
 * I am the only author of this project.
 
-## Photos
-
-##### Web
-![alt text](# Landing page 
-###Christopher Onions
-
-
-
 ### Prerequisites
 
 Can be opened in any text editor workspace
@@ -46,15 +38,23 @@ Can be opened in any text editor workspace
 ```
 
 ## Built With:
+```
+-HTML
+-Css
+-reset.css (Link in recources)
+-Visual Studio Code
+```
+##Challenges
 
-*HTML
-*Css
-*reset.css (Link in recources)
-*Visual Studio Code
+-This was my first project, there were a few setbacks such as using flex over grid for a potentially better resault . 
 
-### 
+-Getting text over an image took me at least 2 days of stuggleing but i pushed though and finally figured it out.
 
-This was my first project, there were a few setbacks such as using flex over grid for a potentially better resault . 
+-i have put alot of work into this project and im proud of the outcome .
+
+-features that i could add would just be functionality changes and some sizing issue i ran ot of time to fix.
+
+-thank you for listeing to my ted talk. 
 
 ## Authors
 
