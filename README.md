@@ -1,7 +1,6 @@
 # Landing page 
 ###Christopher Onions
 
-```
 
 ### Prerequisites
 
@@ -31,17 +30,53 @@ This was my first project, there were a few setbacks such as using flex over gri
 ## Photos
 
 ##### Web
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](# Landing page 
+###Christopher Onions
+
+
+
+### Prerequisites
+
+Can be opened in any text editor workspace
+
+```
+ Example
+-Visual studio code
+-notepad++
+```
+
+## Built With:
+
+*HTML
+*Css
+*reset.css (Link in recources)
+*Visual Studio Code
+
+### 
+
+This was my first project, there were a few setbacks such as using flex over grid for a potentially better resault . 
+
+## Authors
+
+* I am the only author of this project.
+
+## Photos
+
+##### Web
+![404 image missing](./assets/pictures/Landing_page_full_view.jpg "Optional Title")
 
 ##### Mobile
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![404 image missing](./assets/pictures/Landing_page_mobile_view.jfif "Optional Title")
 
 ## Acknowledgments
 
 Stylesheet rescet.css
-<<<<<<< HEAD
+(https://meyerweb.com/eric/tools/css/reset/)[branch]/image.jpg?raw=true)
+
+
+
+## Acknowledgments
+
+Stylesheet rescet.css
 (https://meyerweb.com/eric/tools/css/reset/)
-=======
-(https://meyerweb.com/eric/tools/css/reset/)
->>>>>>> 2c5a89f24d577153d82195233881ccbb6901c987
