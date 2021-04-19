@@ -1,4 +1,4 @@
-# Landing page
+# Portfolio Page
 
 ##### Christopher Onions
 
@@ -42,6 +42,6 @@ Check browser extentions from blocking functionality
 
 ## Pictures :
 
-![404 image missing](.\assets\pictures\ "Standard by monitor picure of index.html")
+![404 image missing](.\assets\pictures\Landing_page_full_view.jpg "Standard by monitor picure of index.html")
 
 # Links
